@@ -1,0 +1,113 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    color: #222;
+    line-height: 1.6;
+  }
+  
+  .page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* NAVIGATION */
+  nav {
+    background-color: #313131;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+  }
+  
+  nav h1 {
+    font-size: 1.5rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 1.5rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #1e90ff;
+  }
+  
+  /* MAIN CONTENT */
+  main {
+    max-width: 1000px;
+    margin: 3rem auto;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    flex: 1;
+  }
+  
+  main img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .aboutMe {
+    flex: 1;
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .aboutMe h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .aboutMe h4 {
+    margin-bottom: 1rem;
+    color: #444;
+  }
+  
+  /* FOOTER */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+  }
+
+  .aboutMe a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+  }
+  
+  .aboutMe a:hover {
+    color: #1e90ff;
+  }
